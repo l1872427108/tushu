@@ -1,0 +1,24 @@
+{
+  "name": "ky_library",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env BASE_URL=https://apiwb.puge.net/ NODE_ENV=dev nuxt",
+    "build": "cross-env BASE_URL=https://apiwb.puge.net/ NODE_ENV=prod nuxt build",
+    "start": "cross-env BASE_URL=https://apiwb.puge.net/ NODE_ENV=prod nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "babel-plugin-component": "^1.1.1",
+    "core-js": "^3.9.1",
+    "cross-env": "^7.0.3",
+    "element-ui": "^2.15.2",
+    "less": "^4.1.1",
+    "less-loader": "^7.3.0",
+    "nuxt": "^2.15.3",
+    "vue-lazyload": "^1.3.3",
+    "vue-seamless-scroll": "^1.1.23"
+  },
+  "devDependencies": {}
+}
